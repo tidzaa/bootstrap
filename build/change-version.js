@@ -24,7 +24,7 @@ const GLOBBY_OPTIONS = {
   gitignore: true
 }
 
-// Blame TC39... https://github.com/benjamingr/RegExp.escape/issues/37
+// Blame TC39.... https://github.com/benjamingr/RegExp.escape/issues/37
 function regExpQuote(string) {
   return string.replace(/[$()*+-.?[\\\]^{|}]/g, '\\$&')
 }
